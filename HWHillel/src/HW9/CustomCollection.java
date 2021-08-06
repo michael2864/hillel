@@ -1,0 +1,26 @@
+package HW9;
+
+interface CustomCollection {
+    boolean add(String str);
+
+    boolean addAll(String[] strArr);
+
+    boolean addAll(Collection strColl);
+
+    boolean delete (int index);
+
+    boolean deleteS (String str);
+
+    String get(int index);
+
+    boolean contains(String str);
+
+    boolean clear();
+
+    int size();
+
+    boolean trim();
+
+    boolean compare(Collection coll);
+
+}
